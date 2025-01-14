@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React, { Suspense, lazy } from "react";
-
 import PATHS from "./constants/paths";
 import { Spin } from "antd";
 const MainLayout = lazy(() => import("./layouts/MainLayout"));

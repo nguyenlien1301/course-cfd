@@ -7,7 +7,7 @@ import Input from "../Input";
 import Button from "../Button";
 
 const LoginForm = () => {
-  const { handleShowModal, handleCloseModal, handleLogin } = useAuthContext();
+  const { handleShowModal, handleLogin } = useAuthContext();
   const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
     email: "",
